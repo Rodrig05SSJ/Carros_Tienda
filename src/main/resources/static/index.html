@@ -1,10 +1,104 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
-        <title>TODO supply a title</title>
+        <title>Concesionario de Autos</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descrption" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3">
+        <meta name="keywords" content="html5, css3, web">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
+    
     <body>
-        <div>TODO write content</div>
+        <header class="header"> <!-- Etiqueta para ofrecerle al browser info de que es un encabezado-->
+           <nav class="nav"> <!-- esta etiqueta es para ilustrarle al browser que posiblemente es un menu-->
+            <a href="index.html" class="logo nav-link">DriveNation</a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="new.html">New</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="modelos.html">Nuestros modelos</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="videos.html">Videos de los autos</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audios.html">Sonido de los autos</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="servicios.html">Servicios</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+       
+        <aside id="barralateral"> <!-- esta etiqueta es para indicar que es una barra lateral al final, puede ser a la izquierda o a la derecha y pueden ser varias  -->
+            <h2>Informacion sobre la pagina</h2>
+            <p>Nuestra página para venta de autos es un espacio en línea diseñado para ofrecer una amplia selección de vehículos disponibles para su compra. En nuestro sitio web, los visitantes encontrarán una interfaz intuitiva y fácil de usar, donde podrán explorar diferentes modelos, marcas y características de automóviles.</p>
+            <br>
+            <p>Nuestro objetivo principal es brindar a nuestros clientes una experiencia de compra conveniente y transparente. Cada automóvil en nuestra página cuenta con información detallada, que incluye especificaciones técnicas, imágenes de alta calidad y una descripción precisa de su estado y características.</p>
+            <br>
+            <p>En resumen, nuestra página para venta de autos es un destino en línea completo y confiable para aquellos que buscan comprar un automóvil. Nos esforzamos por brindar una experiencia de compra placentera, brindando información detallada sobre cada uno de nuestros autos.</p>
+        </aside>
+        
+        <section id="contenido"> 
+            <h2>Autos mas cotizados</h2>
+            <br>
+            <article>
+                <header><h1>Porsche 911 Carrera 4S</h1></header>
+                <br>
+                <p><strong>Motor potente:</strong> El Porsche 911 viene con una variedad de opciones de motores, que van desde motores de seis cilindros planos hasta motores turboalimentados. Puedes encontrar versiones con potencia que va desde los 370 caballos de fuerza hasta más de 600 caballos de fuerza en las versiones más deportivas.</p>
+                <br>
+                <p><strong>Diseño icónico:</strong> El Porsche 911 es reconocido por su diseño distintivo y atemporal. Tiene una forma elegante y aerodinámica, con líneas suaves y una apariencia deportiva que lo hacen destacar en la carretera.</p>
+                <br>
+                <p><strong>Tecnología avanzada:</strong> El Porsche 911 está equipado con tecnología de vanguardia, incluyendo sistemas de infoentretenimiento, pantalla táctil, conectividad Bluetooth, sistemas de asistencia al conductor y opciones de personalización.</p>
+                <br>
+                <figure>
+                    <img src="images/Porsche 911.jpeg" width="1000" height="500" alt=""/>
+                </figure>
+                <figure>
+                    <video width="320" height="240" controls>
+                        <source src="videos/2023 Porsche 911 Sport Classic ASMR 🔥.mp4" type="video/mp4">
+                        Su navegador no soporta este tipo de video<code>video</code>
+                    </video>
+                </figure>
+            </article>
+            <br>
+            <article>
+                <header><h1>Ubicacion</h1></header>
+                <br>
+                <p><strong>Eficiencia de combustible:</strong> El Honda Civic es conocido por su excelente eficiencia de combustible. Muchas de sus variantes cuentan con motores de bajo consumo de combustible y tecnologías como la inyección directa de combustible y el sistema de gestión de cilindros para maximizar la economía de combustible.</p>
+                <br>
+                <p><strong>Rendimiento y manejo: </strong>Aunque no es un automóvil deportivo, el Honda Civic ofrece un buen equilibrio entre rendimiento y comodidad. Con motores potentes y una suspensión bien ajustada, el Civic proporciona una conducción suave y ágil.</p>
+                <br>
+                <p><strong>Comodidad y espacio:</strong>A pesar de ser un automóvil compacto, el Honda Civic ofrece un interior espacioso y cómodo. Puede acomodar a cinco pasajeros con comodidad y proporcionar suficiente espacio para las piernas y la cabeza tanto en los asientos delanteros como en los traseros.</p>
+                <br>
+                <figure>
+                    <img src="images/Honda civic.jpeg" width="700" height="350" alt=""/>
+                    <figcaption><u>Mas vendido</u></figcaption>
+                </figure>
+                <figure>
+                    <video width="320" height="240" controls>
+                        <source src="videos/NUEVO HONDA CIVIC 2022 #shorts.mp4" type="video/mp4">
+                         Su navegador no soporta este tipo de video<code>video</code>
+                    </video>
+                </figure>
+            </article>
+            <br>
+            <article>
+                <header><h1>Toyota Camry</h1></header>
+                <br>
+                <p><strong>Eficiencia de combustible:</strong>El Camry ofrece una buena eficiencia de combustible, especialmente en sus versiones híbridas. Los motores de última generación y la tecnología híbrida ayudan a reducir el consumo de combustible y minimizar las emisiones, lo que puede ser beneficioso para las familias que desean ahorrar en costos de combustible.</p>
+                <br>
+                <p><strong>Seguridad:</strong>El Camry está equipado con características de seguridad avanzadas. Puede ofrecer sistemas de asistencia al conductor, como frenado de emergencia automático, control de crucero adaptativo, alerta de salida de carril y asistencia de mantenimiento de carril para ayudar a prevenir colisiones y mantener una conducción segura.</p>
+                <br>
+                <p><strong>Espacio y comodidad:</strong>El Toyota Camry es conocido por ofrecer un amplio espacio interior para acomodar a todos los pasajeros cómodamente. Tanto los asientos delanteros como los traseros proporcionan suficiente espacio para las piernas y la cabeza, lo que lo convierte en un automóvil ideal para viajes familiares.</p>
+                <br>
+                <figure>
+                    <img src="images/Toyota Camry.jpg" width="500" height="250" alt=""/>
+                    <figcaption><u>Mas economico</u></figcaption>
+                </figure>
+                <figure>
+                    <video width="320" height="240" controls>
+                        <source src="videos/Nuevo #toyota #camry #2023 #mexico #aguascalientes #autos.mp4" type="video/mp4">
+                        Su navegador no soporta este tipo de video <code>video</code>
+                    </video>
+                </figure>
+            </article>
+            
+        </section>
+        <footer id="piepagina">Derechos reservados &COPY; 2023 <address style="display: inline">Tel 8889-7744</address></footer>
     </body>
 </html>
